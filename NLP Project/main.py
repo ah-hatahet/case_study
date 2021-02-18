@@ -5,7 +5,6 @@ from tensorflow.keras.models import load_model
 from tqdm import tqdm
 from helpers import invert
 
-MAX_SEQUENCE_LENGTH = 29
 
 def load_file(file_path):
     """ A helper functions that loads the file into a tuple of strings
