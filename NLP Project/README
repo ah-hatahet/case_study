@@ -1,0 +1,2 @@
+In this project, I build an RNN using NLP techniques to to convert mathematical factors (2(y+3)) into their counterpart expansions (y+6) with 89% accuracy. 
+
