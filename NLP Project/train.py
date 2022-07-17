@@ -51,7 +51,7 @@ def main():
 
   callback =  EarlyStopping(monitor='accuracy')
 
-  model.compile(loss = 'categorical_crossentropy', optimizer = 'adam', metrics = ['accuracy'])
+  model.compile(loss = 'binary_crossentropy', optimizer = 'adam', metrics = ['accuracy'])
 
   # get model summary and weights
   model_summary = model.summary()
